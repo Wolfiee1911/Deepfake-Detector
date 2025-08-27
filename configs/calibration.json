@@ -1,0 +1,5 @@
+{
+  "threshold": 0.695,
+  "assume_output": "REAL",
+  "val_acc_estimate": 0.987
+}
