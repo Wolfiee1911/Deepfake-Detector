@@ -77,4 +77,38 @@ Snapshots of the Streamlit UI:
 - **Accuracy:** ~92% on FakeAVCeleb + FaceForensics++  
 - **Latency:** ~25 FPS on RTX 4050
 
+## 📦 Dataset
 
+Due to size restrictions, datasets and pretrained weights are not included.
+
+- FakeAVCeleb: Dataset Link
+
+- FaceForensics++: Dataset Link
+
+Download them and place inside data/ folder (see data/README.md).
+
+## 🛠️ Tech Stack
+
+- Python, PyTorch – Deep Learning
+
+- YOLOv7 – Model backbone
+
+- OpenCV – Pre/post processing
+
+- Streamlit – Web UI
+
+## 📌 Future Work
+
+- Add audio-visual deepfake detection
+
+- Deploy as a web service (Docker + Cloud)
+
+- Expand dataset coverage
+
+## 👨‍💻 Author  
+
+**Svaraan Kumar Thammu**  
+
+- 📧 [Email](mailto:svaraankumar.04@gmail.com)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/svaraan-kumar)  
+- 💻 [GitHub](https://github.com/Wolfiee1911)  
