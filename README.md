@@ -77,15 +77,21 @@ Snapshots of the Streamlit UI:
 - **Accuracy:** ~92% on FakeAVCeleb + FaceForensics++  
 - **Latency:** ~25 FPS on RTX 4050
 
-## 📦 Dataset
+## 📦 Dataset  
 
-Due to size restrictions, datasets and pretrained weights are not included.
+Due to size restrictions, datasets and pretrained weights are **not included** in this repository.  
 
-- FakeAVCeleb: Dataset Link
+For training and evaluation, we used the following datasets:  
 
-- FaceForensics++: Dataset Link
+- **FakeAVCeleb** – A large-scale deepfake dataset.  
+  🔗 [Download Link](https://fakeavceleb.org/)  
 
-Download them and place inside data/ folder (see data/README.md).
+- **FaceForensics++ (C23 compression)** – Widely used dataset for face manipulation detection.  
+  🔗 [Download Link](https://github.com/ondyari/FaceForensics)  
+
+### 📂 How to use datasets  
+1. Download the datasets from the above links.  
+2. Place them inside the `data/` folder.
 
 ## 🛠️ Tech Stack
 
