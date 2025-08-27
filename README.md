@@ -14,7 +14,7 @@ It detects manipulated faces in videos and images, providing a simple **web app 
 
 ## 📂 Repository Structure  
 
-<pre> ``` deepfake-detection/ 
+<pre>deepfake-detection/ 
 │── README.md 
 │── requirements.txt 
 │── main.py 
@@ -25,7 +25,7 @@ It detects manipulated faces in videos and images, providing a simple **web app 
 ├── src/ # Core pipeline code 
 ├── results/ # Sample predictions & UI snapshots
 ├── .streamlit/ # Streamlit configuration 
-└── data/ # (ignored) datasets/weights ``` </pre>
+└── data/ # (ignored) datasets/weights </pre>
 
 ---
 
