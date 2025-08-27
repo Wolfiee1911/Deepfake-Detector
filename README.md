@@ -35,3 +35,46 @@ It detects manipulated faces in videos and images, providing a simple **web app 
 ```bash
 git clone https://github.com/Wolfiee1911/Deepfake-Detector.git
 cd Deepfake-Detector
+```
+### 2. Create a conda environment(recommended)
+```bash
+conda create -n deepfake python=3.10 -y
+conda activate deepfake
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirementes.txt
+```
+
+## ▶️ Usage
+
+### 1. Run Detection via Streamlit
+```bash
+streamlit run scripts/web_app_streamlit.py
+```
+
+### 2. Train the Model
+```bash
+python scripts/train_spatial.py --config configs/train_split.json
+```
+
+### 3. Evaluate the Model
+```bash
+python scripts/eval_and_calibrate.py --config configs/val_split.json
+```
+
+## 📊 Results  
+
+Snapshots of the Streamlit UI:  
+
+| ![Demo1](results/1st-pic-demo.png) | ![Demo2](results/2nd-pic-demo.png) |
+|-----------------------------------|-----------------------------------|
+| ![Demo3](results/3rd-pic-demo.png) | ![Demo4](results/4th-pic-demo.png) |
+
+![Demo5](results/5th-pic-demo.png)
+
+- **Accuracy:** ~92% on FakeAVCeleb + FaceForensics++  
+- **Latency:** ~25 FPS on RTX 4050
+
+
