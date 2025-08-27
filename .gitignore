@@ -1,0 +1,62 @@
+# ===== Python cache / build =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# ===== Virtual envs =====
+.venv/
+venv/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / OS files =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Datasets / Weights / Large media =====
+data/
+datasets/
+checkpoints/
+weights/
+runs/
+*.pt
+*.h5
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.npz
+*.npy
+
+# videos & big archives
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wav
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ===== Logs & outputs =====
+logs/
+outputs/
+*.log
+
+# ===== If you want to keep a placeholder in data/ =====
+# (Option 1: ignore everything in data/ except its README)
+# data/*
+# !data/README.md
+
+# ignore temp + test files
+tempCodeRunnerFile.py
+test.py
